@@ -1,0 +1,57 @@
+* {
+    font-size: 15pt;
+}
+
+h1 {
+    font-size: 29pt;
+}
+
+h1, p {
+    background-color: rgb(51, 134, 134);
+    color: rgb(224, 224, 188);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p.intro {
+    background-color: rgb(47, 105, 20);
+  }
+
+p + div{
+    color: rgb(68, 5, 63);
+  }
+
+div + p {
+    background-color: orchid;
+}
+
+p ~ ul {
+    background: #d63d0e;
+  }
+
+a[target=_blank] {
+    background-color: rgb(27, 182, 182);
+}
+
+input [type=text] {
+    background-color: yellow;
+}
+
+[title~=flower] {
+    border: 25px solid rgb(94, 24, 41);
+  }
+
+[title~=landscape] {
+    border: 25px solid rgb(121, 68, 138);
+  }
+  
+[title~=flowers] {
+    border: 25px solid rgb(49, 48, 155);
+  }
+
+[lang|=us] {
+    background-color: rgb(14, 73, 41);
+  }
+
+  div[class^="test"] {
+    background: #dd9c0e;
+  }
