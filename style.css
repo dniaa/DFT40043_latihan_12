@@ -31,27 +31,40 @@ p ~ ul {
 a[target=_blank] {
     background-color: rgb(27, 182, 182);
 }
-
-input [type=text] {
-    background-color: yellow;
-}
+  
+[title~=flowers] {
+    border: 25px solid rgb(49, 48, 155);
+  }
 
 [title~=flower] {
     border: 25px solid rgb(94, 24, 41);
   }
 
 [title~=landscape] {
-    border: 25px solid rgb(121, 68, 138);
-  }
-  
-[title~=flowers] {
-    border: 25px solid rgb(49, 48, 155);
+    border: 25px solid rgb(56, 168, 4);
   }
 
 [lang|=us] {
     background-color: rgb(14, 73, 41);
   }
 
-  div[class^="test"] {
+div[class^="test"] {
     background: #dd9c0e;
+  }
+
+a:active {
+    background-color: yellow;
+  }
+
+h3::after { 
+    content: " - Remember this";
+  }
+
+h4::first-letter {
+    font-size: 200%;
+    color: #07949e;
+  }
+
+input:focus {
+    background-color: yellow;
   }
